@@ -67,6 +67,11 @@ set foldmethod=syntax	" fold based on indent level
 nnoremap <Tab> :bnext<CR>
 nnoremap <S-Tab> :bprevious<CR>
 
+noremap i <UP>
+noremap k <DOWN>
+noremap j <LEFT>
+noremap h i
+
 " move vertically by visual line
 nnoremap j gj
 nnoremap k gk
